@@ -1,18 +1,17 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Table from "./components/Table/Table";
 import "./App.css";
-import SearchBar from "./components/SearchBar/SearchBar";
+
+import Main from "./components/Main/Main";
+// import Table from "./components/Table/Table";
 
 function App() {
   return (
     <div className="App">
-      {/* <Wrapper> */}
       <Header />
-      <SearchBar />
-      <Table />
-      {/* <Main /> */}
-      {/* </Wrapper> */}
+
+      <Main />
+      {/* <Table /> */}
     </div>
   );
 }

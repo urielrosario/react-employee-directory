@@ -6,12 +6,13 @@ const SearchBar = (props) => {
     <nav className="navbar navbar-light bd-light justify-content-center">
       <form className="form-inline m-2">
         <input
-          className="form"
-          value={props.value}
+          className="form-control"
+          value={props.search}
           name="Search"
           placeholder="Search Employee"
           onChange={props.handleInputChange}
         ></input>
+        {/* <button onClick={props.handleFormSubmit}>Search</button> */}
       </form>
     </nav>
   );

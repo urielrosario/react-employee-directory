@@ -3,6 +3,8 @@ import API from "../../utils/API";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import Table from "../../components/Table/Table";
 
+// import SearchResults from "../../components/SearchResults/SearchResults";
+
 class Main extends Component {
   state = {
     search: "",
@@ -20,7 +22,7 @@ class Main extends Component {
   //   };
   // }
   componentDidMount() {
-    this.getApi();
+    this.getApi("");
   }
   // used activity 19 to guide me.
   //  get the api so i can get the employees info

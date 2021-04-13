@@ -9,8 +9,10 @@ const SearchBar = (props) => {
           className="form-control"
           value={props.search}
           name="Search"
+          type="text"
           placeholder="Search Employee"
           onChange={props.handleInputChange}
+          id="search"
         ></input>
         {/* <button onClick={props.handleFormSubmit}>Search</button> */}
       </form>
